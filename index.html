@@ -6,100 +6,8 @@
   <title>Sonic Menu - Sonic Happy Hour 2025</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  
-  <!-- FAQ Section Styles -->
-  <style>
-    .faqs {
-      --faq-primary: #01578C;
-      --faq-text-on-primary: #ffffff;
-      --faq-answer-bg: #ffffff;
-      --faq-answer-text: #1f2937;
-      --radius: 12px;
-      --shadow: 0 10px 18px rgba(0,0,0,.12);
-
-      font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, "Segoe UI",
-                   Roboto, "Helvetica Neue", Arial, "Apple Color Emoji",
-                   "Segoe UI Emoji";
-      font-size: calc(1rem + 2px);
-      max-width: 960px;
-      margin: 0 auto;
-      display: grid;
-      gap: 12px;
-    }
-
-    .faqs .faq-item {
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      background: var(--faq-primary);
-      border: 1px solid rgba(0,0,0,.08);
-    }
-
-    .faqs summary {
-      list-style: none;
-      cursor: pointer;
-      padding: 18px 56px 18px 20px;
-      position: relative;
-      color: var(--faq-text-on-primary);
-      font-weight: 700;
-      letter-spacing: .2px;
-      display: block;
-      outline: none;
-    }
-
-    .faqs summary::-webkit-details-marker { display: none; }
-
-    .faqs summary::after {
-      content: '+';
-      position: absolute;
-      right: 14px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 28px;
-      height: 28px;
-      line-height: 28px;
-      border-radius: 8px;
-      text-align: center;
-      font-size: 20px;
-      background: rgba(255,255,255,.18);
-      color: var(--faq-text-on-primary);
-      border: 1px solid rgba(255,255,255,.35);
-      transition: transform .25s ease, background-color .25s ease;
-    }
-
-    .faqs .faq-item[open] summary::after {
-      content: '–';
-      transform: translateY(-50%) rotate(180deg);
-      background: rgba(0,0,0,.15);
-    }
-
-    .faqs .faq-item:not([open]) summary:hover { filter: brightness(0.97); }
-
-    .faqs .answer { background: var(--faq-answer-bg); }
-    .faqs .answer > div {
-      padding: 14px 20px 18px;
-      color: var(--faq-answer-text);
-      border-top: 1px dashed rgba(0,0,0,.12);
-      font-weight: 400;
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-      .faqs .answer {
-        display: grid;
-        grid-template-rows: 0fr;
-        transition: grid-template-rows .3s ease;
-      }
-      .faqs .faq-item[open] > .answer { grid-template-rows: 1fr; }
-      .faqs .answer > div { overflow: hidden; }
-    }
-
-    @media (max-width: 540px) {
-      .faqs summary { padding: 16px 52px 16px 16px; }
-      .faqs .answer > div { padding: 12px 16px 16px; }
-    }
-  </style>
 </head>
 <body>
 
@@ -127,7 +35,7 @@
     <h2>Is Sonic Happy Hour Worth It?</h2>
     <p>Yes, Sonic Happy Hour is absolutely worth it. You get great value for your money with half-price drinks and slushes that taste just as refreshing as ever.</p>
 
-    <!-- Updated FAQ Section -->
+    <!-- FAQ Section -->
     <section class="faqs" data-accordion>
       <details class="faq-item" open>
         <summary>Does Sonic still have Happy Hour?</summary>
@@ -148,18 +56,6 @@
       <details class="faq-item">
         <summary>Can I get Happy Hour deals in the app?</summary>
         <div class="answer"><div>Yes, you can order through the app to get the same discounted prices.</div></div>
-      </details>
-      <details class="faq-item">
-        <summary>How much can I save during Sonic Happy Hour?</summary>
-        <div class="answer"><div>You can save up to 50% on your favorite drinks and snacks.</div></div>
-      </details>
-      <details class="faq-item">
-        <summary>Is Sonic Happy Hour worth it?</summary>
-        <div class="answer"><div>Absolutely! You enjoy great taste and save money at the same time.</div></div>
-      </details>
-      <details class="faq-item">
-        <summary>Do all Sonic locations follow the same Happy Hour time?</summary>
-        <div class="answer"><div>Most do, but some may vary — it’s best to check your local Sonic.</div></div>
       </details>
     </section>
 
