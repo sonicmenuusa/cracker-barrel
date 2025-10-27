@@ -1,81 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sonic Menu - Sonic Happy Hour 2025</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.7;
+}
 
-  <!-- Header / Logo -->
-  <header class="hero-section">
-    <h1 class="logo">Sonic <span>Menu</span></h1>
-    <p class="subtitle">Sonic Happy Hour - Menu, Time & Schedule 2025</p>
-  </header>
+/* Header Section / Logo */
+.hero-section {
+  text-align: center;
+  padding: 100px 20px 40px;
+  background: linear-gradient(to bottom, #fff 0%, #f5f7fa 100%);
+  border-bottom: 2px solid #eee;
+}
 
-  <!-- Content Section -->
-  <section class="content">
-    <h2>What is Sonic Happy Hour?</h2>
-    <p>
-      If you’re someone who enjoys grabbing a quick drink or snack without spending too much, then the Sonic Happy Hour is made for you. 
-      During this special time, you can enjoy half-price drinks, refreshing slushes, and other favorites from the Sonic menu. Whether you’re stopping by for a cold drink on a hot day or want to treat yourself after work, this offer lets you save money while enjoying the same great taste Sonic is known for.
-    </p>
-    <p>
-      What makes it even better is how simple it is — you just pull up, place your order, and enjoy your favorites for less. The Sonic Happy Hour menu changes from time to time, with new flavors and limited-time deals that keep things exciting. Before heading out, check your local Sonic or the app to see what’s available near you, so you never miss a good deal.
-    </p>
+.logo {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #01578C;
+  margin: 0;
+}
 
-    <h2>Sonic Happy Hour Time</h2>
-    <p>
-      Sonic Happy Hour is your go-to time for big drink savings on the Sonic menu. It’s a short daily window when many drinks and slushes drop to about half price, so you can grab a refreshing treat without paying full price. The promotion usually shows up in the afternoon and sometimes again late at night — but exact hours can vary by location.
-    </p>
-    <p>
-      Beyond half-price sips, Sonic often runs app deals and limited-time snack promos that run alongside Happy Hour (think $1 snacky items or seasonal slush floats). That means you can score extra value if you order through the Sonic app or check for local offers first. Always check your local Sonic or the app so you know what’s on the Sonic Happy Hour menu near you.
-    </p>
+.logo span {
+  color: #D71D30;
+}
 
-    <h3>Regular Happy Hour Time</h3>
-    <p>
-      Most Sonic locations run their Happy Hour from 2 PM to 4 PM, giving you a solid window to grab your go-to drink. Some spots even offer late-night Happy Hours for those evening cravings. Before you head out, check your local Sonic or the Sonic app — times and deals can change depending on where you are. Either way, it’s the sweetest time to sip and save.
-    </p>
+.subtitle {
+  font-size: 1.6rem;
+  color: #555;
+  margin-top: 12px;
+}
 
-    <h3>Sonic’s Late-Night Happy Hour</h3>
-    <p>
-      In case you miss the regular afternoon deals, don’t worry — Sonic still has something for you. The Sonic Happy Hour menu keeps the fun going late into the night, usually starting around 8 PM and lasting until closing time. It’s your chance to grab half-price slushes, shakes, and a few tasty snacks without spending much. Whether you’re heading home after a long day or just craving something sweet before bed, this late-night deal hits the spot.
-    </p>
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: left;
+}
 
-    <h2>Is Sonic Happy Hour Worth It?</h2>
-    <p>
-      Yes, Sonic Happy Hour is absolutely worth it. You get great value for your money with half-price drinks and slushes that taste just as refreshing as ever. It’s perfect when you want something cool after a long day or need a quick pick-me-up during your drive. The best part? You can mix and match flavors, try new combinations, and still spend less. The service is quick, the atmosphere is fun, and the deals are available every single day.
-    </p>
+.content h2 {
+  color: #01578C;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
-    <h2>FAQs - Sonic Happy Hour</h2>
-    <ol>
-      <li>Does Sonic still have Happy Hour? <br> Yes, Sonic still offers Happy Hour with half-price drinks and slushes every day.</li>
-      <li>What time is Sonic Happy Hour? <br> The regular sonic happy hour time runs from 2 PM to 4 PM on weekdays.</li>
-      <li>Is there a Late-Night Happy Hour at Sonic? <br> Yes, many locations offer late-night deals starting around 8 PM till close.</li>
-      <li>What’s on the Sonic Happy Hour Menu? <br> You’ll find half-price drinks, slushes, and tasty snacks like tots and corn dogs.</li>
-      <li>Can I get Happy Hour deals in the app? <br> Yes, you can order through the app to get the same discounted prices.</li>
-      <li>How much can I save during Sonic Happy Hour? <br> You can save up to 50% on your favorite drinks and snacks.</li>
-      <li>Is Sonic Happy Hour worth it? <br> Absolutely! You enjoy great taste and save money at the same time.</li>
-      <li>Do all Sonic locations follow the same Happy Hour time? <br> Most do, but some may vary — it’s best to check your local Sonic.</li>
-    </ol>
+.content h3 {
+  color: #D71D30;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 
-    <h2>Conclusion</h2>
-    <p>
-      Sonic Happy Hour is your chance to enjoy great taste without stretching your wallet. You can grab half-price slushes, shakes, and snacks that hit the spot every time. It’s made for those moments when you just want to relax, take a break, and enjoy something cool and refreshing without overthinking the price.
-    </p>
-    <p>
-      If you love good deals and fast service, this one’s for you. Just check your nearest location or open the app to see the Sonic Happy Hour schedule. Roll in during that time, order your favorites, and enjoy every sip knowing you saved a few bucks — simple, smart, and delicious.
-    </p>
-  </section>
+.content p {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #333;
+}
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Sonic Menu | All Rights Reserved</p>
-  </footer>
+/* FAQ Accordion Styles */
+.faqs {
+  --faq-primary: #01578C;
+  --faq-text-on-primary: #ffffff;
+  --faq-answer-bg: #ffffff;
+  --faq-answer-text: #1f2937;
+  --radius: 12px;
+  --shadow: 0 10px 18px rgba(0,0,0,.12);
 
-</body>
-</html>
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.05rem;
+  max-width: 900px;
+  margin: 40px auto;
+  display: grid;
+  gap: 12px;
+}
+
+.faqs .faq-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--faq-primary);
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.faqs summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 56px 18px 20px;
+  position: relative;
+  color: var(--faq-text-on-primary);
+  font-weight: 700;
+  display: block;
+  outline: none;
+}
+
+.faqs summary::-webkit-details-marker { display: none; }
+
+.faqs summary::after {
+  content: '+';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  background: rgba(255,255,255,.18);
+  color: var(--faq-text-on-primary);
+  border: 1px solid rgba(255,255,255,.35);
+  transition: transform .25s ease, background-color .25s ease;
+}
+
+.faqs .faq-item[open] summary::after {
+  content: '–';
+  transform: translateY(-50%) rotate(180deg);
+  background: rgba(0,0,0,.15);
+}
+
+.faqs .answer > div {
+  padding: 14px 20px 18px;
+  color: var(--faq-answer-text);
+  border-top: 1px dashed rgba(0,0,0,.12);
+  font-weight: 400;
+  background: var(--faq-answer-bg);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f5f7fa;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo { font-size: 3rem; }
+  .subtitle { font-size: 1.3rem; }
+  .content h2 { font-size: 1.6rem; }
+  .content h3 { font-size: 1.3rem; }
+  .faqs summary { padding: 16px 52px 16px 16px; }
+  .faqs .answer > div { padding: 12px 16px 16px; }
+}
